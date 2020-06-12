@@ -88,8 +88,8 @@ PODS:
   - nanopb/decode (0.3.901)
   - nanopb/encode (0.3.901)
   - TwitterCore (3.2.0)
-  - TwitterKit (3.4.2):
-    - TwitterCore (>= 3.2.0)
+  - TwitterKit5 (5.1.0):
+    - TwitterCore (>= 3.1.0)
 
 DEPENDENCIES:
   - Capacitor
@@ -98,10 +98,10 @@ DEPENDENCIES:
   - Firebase/Auth
   - Firebase/Core
   - GoogleSignIn
-  - TwitterKit
+  - TwitterKit5
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - Bolts
     - Capacitor
     - CapacitorCordova
@@ -121,7 +121,7 @@ SPEC REPOS:
     - GTMSessionFetcher
     - nanopb
     - TwitterCore
-    - TwitterKit
+    - TwitterKit5
 
 SPEC CHECKSUMS:
   Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
@@ -143,8 +143,8 @@ SPEC CHECKSUMS:
   GTMSessionFetcher: 32aeca0aa144acea523e1c8e053089dec2cb98ca
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
   TwitterCore: 8cbc9ad34d91c63a0035ea05bfbfc0d7ca72a28c
-  TwitterKit: 5e4f41d70b9abdb41df5467f52d7aa2c0fd26ebb
+  TwitterKit5: de28c7a3e022f18fd644e0bd61f9fca448991faa
 
-PODFILE CHECKSUM: 4707f7975c123ec729bb064a46eb62a2b2528f83
+PODFILE CHECKSUM: 02df9c6a58a1e4b074ced1a65489e34d2370b9d7
 
-COCOAPODS: 1.6.0
+COCOAPODS: 1.9.1
